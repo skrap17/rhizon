@@ -6,7 +6,7 @@ of control descriptions (provided as text) with regulatory requirements outlined
 
 Download the contents of the repository, either manually or via git clone:
 ```bash
-git clone URL_OF_THE_REPOSITORY
+git clone https://github.com/skrap17/rhizon
 ```
 
 Open terminal and navigate to the folder where the files have been downloaded. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the necessary packages:
