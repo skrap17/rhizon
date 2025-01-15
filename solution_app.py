@@ -58,7 +58,7 @@ data_load_state.text('Loading data...done!')
 st.subheader('Controls')
 st.write(df_controls)
 
-translation_state = st.text('Translating articles...(this can take a couple of minutes)')
+translation_state = st.text('Translating articles...(this can take a few of minutes, especially whe running in Streamlit community cloud)')
 df_articles = translate(df_articles, 'text', translation_tokenizer, translation_model)
 translation_state.text('Translating articles...done!')
 
